@@ -1,0 +1,414 @@
+Script started on Thu 18 Apr 2019 10:21:54 AM PDT
+martza2@CF165-24:~$ cd csci241
+martza2@CF165-24:~/csci241$ ls
+Terminal Dump
+martza2@CF165-24:~/csci241$ git clod[Ke[Kne https://github.com/CSCI241Spring2019/lab-1-martza2.git
+Cloning into 'lab-1-martza2'...
+remote: Enumerating objects: 33, done.[K
+remote: Counting objects:   3% (1/33)   [Kremote: Counting objects:   6% (2/33)   [Kremote: Counting objects:   9% (3/33)   [Kremote: Counting objects:  12% (4/33)   [Kremote: Counting objects:  15% (5/33)   [Kremote: Counting objects:  18% (6/33)   [Kremote: Counting objects:  21% (7/33)   [Kremote: Counting objects:  24% (8/33)   [Kremote: Counting objects:  27% (9/33)   [Kremote: Counting objects:  30% (10/33)   [Kremote: Counting objects:  33% (11/33)   [Kremote: Counting objects:  36% (12/33)   [Kremote: Counting objects:  39% (13/33)   [Kremote: Counting objects:  42% (14/33)   [Kremote: Counting objects:  45% (15/33)   [Kremote: Counting objects:  48% (16/33)   [Kremote: Counting objects:  51% (17/33)   [Kremote: Counting objects:  54% (18/33)   [Kremote: Counting objects:  57% (19/33)   [Kremote: Counting objects:  60% (20/33)   [Kremote: Counting objects:  63% (21/33)   [Kremote: Counting objects:  66% (22/33)   [Kremote: Counting objects:  69% (23/33)   [Kremote: Counting objects:  72% (24/33)   [Kremote: Counting objects:  75% (25/33)   [Kremote: Counting objects:  78% (26/33)   [Kremote: Counting objects:  81% (27/33)   [Kremote: Counting objects:  84% (28/33)   [Kremote: Counting objects:  87% (29/33)   [Kremote: Counting objects:  90% (30/33)   [Kremote: Counting objects:  93% (31/33)   [Kremote: Counting objects:  96% (32/33)   [Kremote: Counting objects: 100% (33/33)   [Kremote: Counting objects: 100% (33/33), done.[K
+remote: Compressing objects:   4% (1/21)   [Kremote: Compressing objects:   9% (2/21)   [Kremote: Compressing objects:  14% (3/21)   [Kremote: Compressing objects:  19% (4/21)   [Kremote: Compressing objects:  23% (5/21)   [Kremote: Compressing objects:  28% (6/21)   [Kremote: Compressing objects:  33% (7/21)   [Kremote: Compressing objects:  38% (8/21)   [Kremote: Compressing objects:  42% (9/21)   [Kremote: Compressing objects:  47% (10/21)   [Kremote: Compressing objects:  52% (11/21)   [Kremote: Compressing objects:  57% (12/21)   [Kremote: Compressing objects:  61% (13/21)   [Kremote: Compressing objects:  66% (14/21)   [Kremote: Compressing objects:  71% (15/21)   [Kremote: Compressing objects:  76% (16/21)   [Kremote: Compressing objects:  80% (17/21)   [Kremote: Compressing objects:  85% (18/21)   [Kremote: Compressing objects:  90% (19/21)   [Kremote: Compressing objects:  95% (20/21)   [Kremote: Compressing objects: 100% (21/21)   [Kremote: Compressing objects: 100% (21/21), done.[K
+remote: Total 33 (delta 7), reused 19 (delta 2), pack-reused 0[K
+Unpacking objects:   3% (1/33)   Unpacking objects:   6% (2/33)   Unpacking objects:   9% (3/33)   Unpacking objects:  12% (4/33)   Unpacking objects:  15% (5/33)   Unpacking objects:  18% (6/33)   Unpacking objects:  21% (7/33)   Unpacking objects:  24% (8/33)   Unpacking objects:  27% (9/33)   Unpacking objects:  30% (10/33)   Unpacking objects:  33% (11/33)   Unpacking objects:  36% (12/33)   Unpacking objects:  39% (13/33)   Unpacking objects:  42% (14/33)   Unpacking objects:  45% (15/33)   Unpacking objects:  48% (16/33)   Unpacking objects:  51% (17/33)   Unpacking objects:  54% (18/33)   Unpacking objects:  57% (19/33)   Unpacking objects:  60% (20/33)   Unpacking objects:  63% (21/33)   Unpacking objects:  66% (22/33)   Unpacking objects:  69% (23/33)   Unpacking objects:  72% (24/33)   Unpacking objects:  75% (25/33)   Unpacking objects:  78% (26/33)   Unpacking objects:  81% (27/33)   Unpacking objects:  84% (28/33)   Unpacking objects:  87% (29/33)   Unpacking objects:  90% (30/33)   Unpacking objects:  93% (31/33)   Unpacking objects:  96% (32/33)   Unpacking objects: 100% (33/33)   Unpacking objects: 100% (33/33), done.
+Checking connectivity... done.
+martza2@CF165-24:~/csci241$ ls
+lab-1-martza2  Terminal Dump
+martza2@CF165-24:~/csci241$ cd lab-1-martza2
+martza2@CF165-24:~/csci241/lab-1-martza2$ git config --global user.name "ALexander Martz[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[KAlexander <ar=[K[K[K[KMartz"
+martza2@CF165-24:~/csci241/lab-1-martza2$ git config --global user.email martza2@wwu.edu
+martza2@CF165-24:~/csci241/lab-1-martza2$ touch writeup.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git add writeup.r[Ktxxt[K[Kt
+martza2@CF165-24:~/csci241/lab-1-martza2$ ls
+build.gradle  src  writeup.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git commit -m "Added a[Kempty wro[Kiteup"[Kmartza2@CF165-24:~/csci241/lab-1-martza2$ git commit -m "Added empty writeup"
+[master d967972] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': martza2
+Password for 'https://martza2@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 318 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-martza2.git
+   aee63ed..d967972  master -> master
+martza2@CF165-24:~/csci241/lab-1-martza2$ g[Kgot[K[Kit add writeup.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git vo[K[Kcommit -m :[K"added[K[K[K[K[KAdded part 1 (names [K) to writeup"
+[master b8f9852] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+martza2@CF165-24:~/csci241/lab-1-martza2$ git sd[Ktatus[K[K[K[K[K[K[K[K[K[Kgit status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+martza2@CF165-24:~/csci241/lab-1-martza2$ git statui[Ks
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+martza2@CF165-24:~/csci241/lab-1-martza2$ git add writeup.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+martza2@CF165-24:~/csci241/lab-1-martza2$ git commit -n[Km :[K"add[K[K[KAdded part 2([K (Hobby) to r[Kwti[K[Kriteup"
+[master 96099ab] Added part 2 (Hobby) to writeup
+ 1 file changed, 1 insertion(+)
+martza2@CF165-24:~/csci241/lab-1-martza2$ git stau[Ktus
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+martza2@CF165-24:~/csci241/lab-1-martza2$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': martza2
+Password for 'https://martza2@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 560 bytes | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-martza2.git
+   d967972..96099ab  master -> master
+martza2@CF165-24:~/csci241/lab-1-martza2$ touche[K username.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ ls
+build.gradle  src  username.txt  writeup.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git add username.,[Ktxt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git stau[Ktsu[K[Kus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   username.txt[m
+
+martza2@CF165-24:~/csci241/lab-1-martza2$ git commit-m[K[K -m "Added Names, WWU s[Kusername, Gt[Kithub username"
+[master 31bfd06] Added Names, WWU username, Github username
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 username.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git ou[K[Kstatus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   username.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+martza2@CF165-24:~/csci241/lab-1-martza2$ git add username.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': martza2
+Password for 'https://martza2@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 370 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-martza2.git
+   96099ab..31bfd06  master -> master
+martza2@CF165-24:~/csci241/lab-1-martza2$ touch text[Ks[K[Kst.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ ls
+build.gradle  src  test.txt  username.txt  writeup.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git mv test.txt test![K1.txt
+fatal: not under version control, source=test.txt, destination=test1.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git mv test test1
+fatal: bad source, source=test, destination=test1
+martza2@CF165-24:~/csci241/lab-1-martza2$ git mv test.txt :[K"Tw[K[Ktest1"
+fatal: not under version control, source=test.txt, destination=test1
+martza2@CF165-24:~/csci241/lab-1-martza2$ git mn[Kv test testtest
+fatal: bad source, source=test, destination=testtest
+martza2@CF165-24:~/csci241/lab-1-martza2$ git mv text[K[Kst variable
+fatal: bad source, source=test, destination=variable
+martza2@CF165-24:~/csci241/lab-1-martza2$ cd test
+bash: cd: test: No such file or directory
+martza2@CF165-24:~/csci241/lab-1-martza2$ cd test.txt
+bash: cd: test.txt: Not a directory
+martza2@CF165-24:~/csci241/lab-1-martza2$ git mv tess[Kt newfile
+fatal: bad source, source=test, destination=newfile
+martza2@CF165-24:~/csci241/lab-1-martza2$ git add test.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git mv test newfile
+fatal: bad source, source=test, destination=newfile
+martza2@CF165-24:~/csci241/lab-1-martza2$ git rm test
+fatal: pathspec 'test' did not match any files
+martza2@CF165-24:~/csci241/lab-1-martza2$ git rm test.txt
+error: the following file has changes staged in the index:
+    test.txt
+(use --cached to keep the file, or -f to force removal)
+martza2@CF165-24:~/csci241/lab-1-martza2$ -f
+-f: command not found
+martza2@CF165-24:~/csci241/lab-1-martza2$ git rm test.txt -f
+rm 'test.txt'
+martza2@CF165-24:~/csci241/lab-1-martza2$ ls
+build.gradle  src  username.txt  writeup.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git lofd[K[Kf[Kg
+[?1h=[33mcommit 31bfd06ce914ba06393abc21acc32cf01b4b0658[m[m
+Author: Alexander Martz <martza2@wwu.edu>[m
+Date:   Thu Apr 18 10:45:18 2019 -0700[m
+[m
+    Added Names, WWU username, Github username[m
+[m
+[33mcommit 96099abc7f2397c9a88d3c8eba9fc78e991e29a4[m[m
+Author: Alexander Martz <martza2@wwu.edu>[m
+Date:   Thu Apr 18 10:36:55 2019 -0700[m
+[m
+    Added part 2 (Hobby) to writeup[m
+[m
+[33mcommit b8f9852f6cb09bc125ff8e95e7f7a7963d36ee82[m[m
+Author: Alexander Martz <martza2@wwu.edu>[m
+Date:   Thu Apr 18 10:33:44 2019 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit d9679729bc1016395ef890740671a183a0c42a2c[m[m
+Author: Alexander Martz <martza2@wwu.edu>[m
+Date:   Thu Apr 18 10:26:39 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit aee63edda74ebf3d5bb7168d042b298100bf25f4[m[m
+Author: martza2 <49532546+martza2@users.noreply.github.com>[m
+Date:   Thu Apr 18 10:21:02 2019 -0700[m
+[m
+    Delete writeup.txt[m
+[m
+[33mcommit f1288ea9544f9c90872f56d96d76336c015b2d9a[m[m
+Author: martza2 <49532546+martza2@users.noreply.github.com>[m
+Date:   Thu Apr 18 10:20:52 2019 -0700[m
+[m
+    Delete username.txt[m
+[m
+[33mcommit 056c5a22415dc13ed3687114e371ae398fc6b10c[m[m
+Author: Alexander Martz <martza2@wwu.edu>[m
+Date:   Mon Apr 15 13:04:18 2019 -0700[m
+[m
+    Added Names, WWU  username, Github username[m
+[m
+[33mcommit 75750644bfe42ddbfdb44d96a5fb95457e44f4e1[m[m
+Author: Alexander Martz <martza2@wwu.edu>[m
+:[K[KDate:   Mon Apr 15 12:53:21 2019 -0700[m
+:[K[K[m
+:[K[K    Added part 2 (Hobby) to writeup[m
+:[K[K[m
+:[K[K[33mcommit 70e25ef10a33d96d7afa664845ca8d7e5a9f7b1d[m[m
+:[K[KAuthor: Alexander Martz <martza2@wwu.edu>[m
+:[K[KDate:   Mon Apr 15 12:40:22 2019 -0700[m
+:[K[K[m
+:[K[K    Added part 1 (names) to writeup[m
+:[K[K[m
+:[K[K[33mcommit d0674a181295ef3699915fb99b0a3bf2d45ac2a4[m[m
+:[K[KAuthor: Alexander Martz <martza2@wwu.edu>[m
+:[K[KDate:   Mon Apr 15 12:37:37 2019 -0700[m
+:[K[K[m
+:[K[K    Added empty writeup[m
+:[K[K[m
+:[K[K[33mcommit 6eeaf54a650cbcb248c7110ca22a8c95c6c9207c[m[m
+:[K[KAuthor: martza2 <49532546+martza2@users.noreply.github.com>[m
+:[K[K [KESCESC[K^?^?[K:[K[K:[K[K[HM[m
+[HM    Added part 1 (names) to writeup[m
+[HM[m
+[HMDate:   Thu Apr 18 10:33:44 2019 -0700[m
+[HMAuthor: Alexander Martz <martza2@wwu.edu>[m
+[HM[33mcommit b8f9852f6cb09bc125ff8e95e7f7a7963d36ee82[m[m
+[HM[m
+[HM    Added part 2 (Hobby) to writeup[m
+[HM[m
+[HMDate:   Thu Apr 18 10:36:55 2019 -0700[m
+[HMAuthor: Alexander Martz <martza2@wwu.edu>[m
+[HM[33mcommit 96099abc7f2397c9a88d3c8eba9fc78e991e29a4[m[m
+[HM[m
+[HM    Added Names, WWU username, Github username[m
+[HM[m
+[HMDate:   Thu Apr 18 10:45:18 2019 -0700[m
+[HMAuthor: Alexander Martz <martza2@wwu.edu>[m
+[HM[33mcommit 31bfd06ce914ba06393abc21acc32cf01b4b0658[m[m
+[45;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[45;1H[K[K:[K[K:[K[K[?1l>martza2@CF165-24:~/csci241/lab-1-martza2$ git diff
+[?1h=[K[?1l>martza2@CF165-24:~/csci241/lab-1-martza2$ git checkl[Kout -b w[Kquestion2[K3
+M	username.txt
+Switched to a new branch 'question3'
+martza2@CF165-24:~/csci241/lab-1-martza2$ git afd[K[K[Kd[Kadd writeup.txt
+martza2@CF165-24:~/csci241/lab-1-martza2$ git commut [K[K[Kit -m ([K"ADD[K[Kdded part q[K3 (fav song) to writeup"
+[question3 244b988] Added part 3 (fav song) to writeup
+ 2 files changed, 2 insertions(+)
+martza2@CF165-24:~/csci241/lab-1-martza2$ git merger [K[K master[K[K[K[K[K[K[K[K[K[K[K[Kcheckiyt[K[K[Ki[Kout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+martza2@CF165-24:~/csci241/lab-1-martza2$ git merh[Kger [K[K w[Kquestion3
+Updating 31bfd06..244b988
+Fast-forward
+ username.txt | 1 [32m+[m
+ writeup.txt  | 1 [32m+[m
+ 2 files changed, 2 insertions(+)
+martza2@CF165-24:~/csci241/lab-1-martza2$ git bar[K[Kranch -d question3
+Deleted branch question3 (was 244b988).
+martza2@CF165-24:~/csci241/lab-1-martza2$ gradle build
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/martza2/csci241/lab-1-martza2/build.gradle into local compilation cache > Compiling build file '/home/martza2/csci241/lab-1-m[m[158D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/martza2/csci241/lab-1-martza2/build.gradle into local compilation cache > Compiling build file '/home/martza2/csci241/lab-1-m[m[158D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [1s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [1s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 3s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :startScripts[m[15D[1B[2A[2K[1B[2K[1A[0mmartza2@CF165-24:~/csci241/lab-1-martza2$ gradle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mmartza2@CF165-24:~/csci241/lab-1-martza2$ gradle run --arfs[K[Kgs="Ypou[K[K[Kour args here"
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+WorldYour!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mmartza2@CF165-24:~/csci241/lab-1-martza2$ gradle run --args="241"
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello 241!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mmartza2@CF165-24:~/csci241/lab-1-martza2$ git add src/main/lab1/he[K[KHello.java
+fatal: pathspec 'src/main/lab1/Hello.java' did not match any files
+martza2@CF165-24:~/csci241/lab-1-martza2$ gif[Kt add srxc[K[Kc [K/main/java/lab1/Hello.java
+martza2@CF165-24:~/csci241/lab-1-martza2$ git commit -m "Hello now prints command line arfg[K[Kg"
+[master 2e6e310] Hello now prints command line arg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+martza2@CF165-24:~/csci241/lab-1-martza2$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': martza2
+Password for 'https://martza2@github.com': 
+Counting objects: 11, done.
+Delta compression using up to 8 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:   9% (1/11)   Writing objects:  18% (2/11)   Writing objects:  27% (3/11)   Writing objects:  36% (4/11)   Writing objects:  45% (5/11)   Writing objects:  54% (6/11)   Writing objects:  63% (7/11)   Writing objects:  72% (8/11)   Writing objects:  81% (9/11)   Writing objects:  90% (10/11)   Writing objects: 100% (11/11)   Writing objects: 100% (11/11), 909 bytes | 0 bytes/s, done.
+Total 11 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-martza2.git
+   31bfd06..2e6e310  master -> master
+martza2@CF165-24:~/csci241/lab-1-martza2$ exit
+exit
+
+Script done on Thu 18 Apr 2019 12:01:44 PM PDT
